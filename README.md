@@ -39,7 +39,7 @@ By default, a “Chat Now” button is added to the bottom-right corner of every
  * Disabled = `thlchatbtn=false`
   
 ### Exit Site button:
-By default, a red exit button will appear on the top-left corner of the chat frame. This is a safety feature that allows chatters to quickly leave the entire website. This is a requirement for some most cases, while not applicable in others. We will work with you to determine if disabling this button is allowed.
+By default, a red exit button will appear on the top-left corner of the chat frame. This is a safety feature that allows chatters to quickly leave the entire website. We will work with you to determine if disabling this button is allowed.
  * Enabled = `thlexitbtn=true` (default)
  * Disabled = `thlexitbtn=false`
 
@@ -49,8 +49,7 @@ By default, a red exit button will appear on the top-left corner of the chat fra
 ### Source: 
 This is configurable using a query string. This will accept standard letters, digits, and hyphens and is limited to 255 characters.
  * `thlsource={{basically anything you want}}`
- * `thlsource=course-student-athletes`
- * `thlsource=Spring-2023-FB-campaign`
+ * `thlsource=course-dating-safety`
  * `thlsource=chatter-type-conversation-type-marketing-effort-website-journey-footer-or-header-time-on-site-anything`
 
 ### Page-URL:
@@ -61,7 +60,7 @@ This isn’t a configurable setting. This simply captures the entire page-URL.
 
 
 ## Deploy widget
-Depending on your use case, you can simply point to your custom endpoint or add the following script snippet to every page in your website or application.
+Depending on your desired development approach, you can simply point to your custom endpoint or add the following script snippet to every page in your website or application.
 A WordPress plugin is in development.
 
 `<script type="text/javascript" src="{{your_custom_endpoint}}" charset="utf-8"></script>`
