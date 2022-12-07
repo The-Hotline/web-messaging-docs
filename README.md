@@ -87,7 +87,8 @@ Simply set the id or name attribute of the custom button to `thl-messaging-btn` 
  * If you’re using a custom button and you want to disable the default button from showing up on pages there isn’t a custom chat button, include the query string `thlchatbtn=false`.
 
 
-
+## Demo
+ * **https://chat.thehotline.us/demo.html**
 
 ## Manage and request keys
 Contact the integration team to manage your integration or request a key.
