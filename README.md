@@ -90,10 +90,12 @@ Simply set the id or name attribute of the custom button to `thl-messaging-btn` 
 ## Demo
 Default config
  * https://chat.thehotline.us/demo.html
+
 Custom button
  * https://chat.thehotline.us/demo-custom-button.html
+
 Default button, in spanish, without a close button
- * https://chat.thehotline.us/demo-custom-button.html?thllanguage=es&thlexitbtn=false
+ * https://chat.thehotline.us/demo.html?thllanguage=es&thlexitbtn=false
 
 ## Manage and request keys
 Contact the integration team to manage your integration or request a key.
