@@ -16,7 +16,7 @@ Query strings are obtained from the endpoint-URL or the URL of the page the widg
 ## Functionality
 
 ### Deployment key: 'key' (required)
-Your unique deployment key obtained.
+Your unique deployment key.
  * This is the only query string that must be declared in the endpoint-URL. It will not be obtained from the page-URL.
  * `key=44033576-e28e-8685-2b21-58sample3d9`
 
