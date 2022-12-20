@@ -39,7 +39,7 @@ By default, a “Chat Now” button is added to the bottom-right corner of every
  * Disabled = `thlchatbtn=false`
   
 ### Exit Site button:
-By default, a red exit button will appear on the top-left corner of the chat frame. This is a safety feature that allows chatters to quickly leave the entire website. We will work with you to determine if disabling this button is allowed.
+By default, a red exit button will appear on the top-left corner of the chat frame. This is a safety feature that allows chatters to quickly leave the entire website. Please let us know if you intend to disable this button.
  * Enabled = `thlexitbtn=true` (default)
  * Disabled = `thlexitbtn=false`
 
