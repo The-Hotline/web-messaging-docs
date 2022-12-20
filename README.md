@@ -65,7 +65,7 @@ A WordPress plugin is in development.
 
 `<script type="text/javascript" src="{{your_custom_endpoint}}" charset="utf-8"></script>`
 
-By default, a button that says “Need help? Chat now.” and is styled according to The Hotline branding. This default behavior is exhibited on this page.
+By default, a button is embedded in the bottom right corner of each page that says “Need help? Chat now.” and is styled according to The Hotline branding. This default behavior is exhibited at https://chat.thehotline.us/demo.html.
 
 
 ## Examples
