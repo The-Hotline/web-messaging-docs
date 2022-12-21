@@ -11,6 +11,9 @@
 ### Query strings
 Query strings are obtained from the endpoint-URL or the URL of the page the widget is loading from. If present, page-URL query strings will override those in the endpoint. If a desired configuration is the default, it can be omitted from both URLs.
 
+### Button parameters
+This is under development. Pass use-specific parameters to the chat via button attributes.
+
 
 
 ## Functionality
@@ -55,15 +58,18 @@ This is configurable using a query string. This will accept standard letters, di
 
 ### Page-URL:
 This isn’t a configurable setting. This simply captures the entire page-URL.
- * `https://my-app.com/courses/dating-safety/spring-23/index.html?myParameter=myValue&thltarget=lir`
+ * `https://my-app.com/courses/dating-safety/spring-23/index.html?myParameter=myValue`
+ * `https://my-app.com/app.html?course=dating-safety&term=spring-23&myParameter=myValue`
 
 
 
 
 ## Deploy widget
-Depending on your desired development approach, you can simply point to your custom endpoint or add the following script snippet to every page in your website or application.
+Depending on the desired deployment approach: Point to a custom endpoint or add the following script snippet. 
 
-`<script type="text/javascript" src="{{your_custom_endpoint}}" charset="utf-8"></script>`
+`<script type="text/javascript" src="{{my_custom_endpoint}}" charset="utf-8"></script>`
+
+Depending on the application's architecture: Use the same endpoint for the entire app and customize button behavior via button_attributes/page_urls or modify/include the endpoint page-by-page.
 
 By default, a button is embedded in the bottom right corner of each page that says “Need help? Chat now.” and is styled according to The Hotline branding. This default behavior is demonstrated at https://chat.thehotline.us/demo.html. A custom button deployment demo can be found at https://chat.thehotline.us/demo-custom-button.html.
 
