@@ -65,11 +65,17 @@ This isn’t a configurable setting. This simply captures the entire page-URL.
 
 
 ## Deploy widget
-Depending on the desired deployment approach: Point to a custom endpoint or add the following script snippet. 
+Depending on the desired deployment approach:
+
+Point to a custom endpoint or add the following script snippet. 
 
 `<script type="text/javascript" src="{{my_custom_endpoint}}" charset="utf-8"></script>`
 
-Depending on the application's architecture: Use the same endpoint for the entire app and customize button behavior via button_attributes/page_urls or modify/include the endpoint page-by-page.
+--
+
+Depending on the application's architecture:
+
+Use the same endpoint for the entire app and customize button behavior via button_attributes/page_urls or modify/include the endpoint page-by-page.
 
 By default, a button is embedded in the bottom right corner of each page that says “Need help? Chat now.” and is styled according to The Hotline branding. This default behavior is demonstrated at https://chat.thehotline.us/demo.html. A custom button deployment demo can be found at https://chat.thehotline.us/demo-custom-button.html.
 
@@ -85,7 +91,7 @@ Endpoint-URL and page-URL config
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
  * `https://my-app.com/courses/safe-dating/spring-2023/app.html?myParameter=myValue&thltarget=lir&thlsource=chapter-3-page-4`
 
-## If you want to use a custom button
+## To use a custom button
 Set the id or name attribute of the custom button to begin with `thl-messaging-btn` and the endpoint / script tag above will initiate a chat when the custom button is clicked.
 
  * `id="thl-messaging-btn"`
