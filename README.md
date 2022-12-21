@@ -34,7 +34,7 @@ The Hotline chat widget has different targets based on general purpose of the in
  * `thltarget=lir`
 
 ### Chat Now button:
-By default, a “Chat Now” button is added to the bottom-right corner of every web page that the endpoint is loaded from if a custom button is not found.
+By default, a “Need help? Chat now” button is added to the bottom-right corner of every web page that the endpoint is loaded from if a custom button is not found. This can be disabled.
  * Enabled = `thlchatbtn=true` (default)
  * Disabled = `thlchatbtn=false`
   
@@ -45,6 +45,7 @@ By default, a red exit button will appear on the top-left corner of the chat fra
 
 
 ## Logging
+Reporting for logs is in development.
 
 ### Source: 
 This is configurable using a query string. This will accept standard letters, digits, and hyphens and is limited to 255 characters.
@@ -61,12 +62,12 @@ This isn’t a configurable setting. This simply captures the entire page-URL.
 
 ## Deploy widget
 Depending on your desired development approach, you can simply point to your custom endpoint or add the following script snippet to every page in your website or application.
-A WordPress plugin is in development.
 
 `<script type="text/javascript" src="{{your_custom_endpoint}}" charset="utf-8"></script>`
 
-By default, a button is embedded in the bottom right corner of each page that says “Need help? Chat now.” and is styled according to The Hotline branding. This default behavior is exhibited at https://chat.thehotline.us/demo.html.
+By default, a button is embedded in the bottom right corner of each page that says “Need help? Chat now.” and is styled according to The Hotline branding. This default behavior is demonstrated at https://chat.thehotline.us/demo.html. A custom button deployment demo can be found at https://chat.thehotline.us/demo-custom-button.html.
 
+A WordPress plugin is in development.
 
 ## Examples
 
@@ -76,15 +77,18 @@ Pure endpoint-URL configs
 
 Endpoint-URL and page-URL config
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
- * `https://my-app.com/courses/safe-dating/spring-2023/index.html?myParameter=myValue&thltarget=lir&thllanguage`
+ * `https://my-app.com/courses/safe-dating/spring-2023/app.html?myParameter=myValue&thltarget=lir&thlsource=chapter-3-page-4`
 
 ## If you want to use a custom button
-Simply set the id or name attribute of the custom button to `thl-messaging-btn` and the endpoint / script tag above will initiate a chat when the custom button is clicked.
+Set the id or name attribute of the custom button to begin with `thl-messaging-btn` and the endpoint / script tag above will initiate a chat when the custom button is clicked.
 
  * `id="thl-messaging-btn"`
+ * `id="thl-messaging-btn-footer"`
  * `name="thl-messaging-btn"`
- * i.e. `<button class="my-button-class chat-button" id="footer-btn-1" name="thl-messaging-btn">Chat Now</button>`
- * If you’re using a custom button and you want to disable the default button from showing up on pages there isn’t a custom chat button, include the query string `thlchatbtn=false`.
+ * i.e. `<button class="my-button-class chat-button" id="thl-messaging-btn">Chat Now</button>`
+ * i.e. `<button class="my-button-class chat-button" id="header-chat-btn" name="thl-messaging-btn">Chat</button>`
+ * i.e. `<button class="my-button-class chat-button" id="footer-chat-btn" name="thl-messaging-btn-footer">Chat with TheHotline.org</button>`
+
 
 
 ## Demo
