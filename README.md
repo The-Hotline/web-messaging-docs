@@ -1,6 +1,6 @@
 # The Hotline chat widget integration instructions
 
-#### Please do not build your implementation until keys have been obtained.
+#### Please do not finalize your implementation until keys have been obtained.
 Some minor details below may change in the final stages of development.
 
 ## Base endpoint URL
