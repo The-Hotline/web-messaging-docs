@@ -1,6 +1,7 @@
 # The Hotline chat widget integration instructions
 
-## Please do not build your implementation until keys have been obtained. Some details below may change in the final stages of development.
+#### Please do not build your implementation until keys have been obtained.
+Some minor details below may change in the final stages of development.
 
 ## Base endpoint URL
 `http://chat.thehotline.us/thl-messaging.js`
@@ -66,11 +67,9 @@ This isn’t a configurable setting. This simply captures the entire page-URL.
 
 
 ## Deploy widget
-Depending on the desired deployment approach:
+Add the following script snippet to the end of the body tag.
 
-Point to a custom endpoint or add the following script snippet. 
-
-`<script type="text/javascript" src="{{my_custom_endpoint}}" charset="utf-8"></script>`
+`<script type="text/javascript" src="{{my_custom_endpoint}}" charset="utf-8" thl-chat></script>`
 
 --
 
