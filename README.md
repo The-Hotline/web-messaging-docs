@@ -1,5 +1,6 @@
 # The Hotline chat widget integration instructions
 
+## Please do not build your implementation until keys have been obtained. Some details below may change in the final stages of development.
 
 ## Base endpoint URL
 `http://chat.thehotline.us/thl-messaging.js`
