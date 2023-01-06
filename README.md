@@ -89,7 +89,7 @@ Pure endpoint-URL configs
 
 Endpoint-URL and page-URL config
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
- * `https://my-app.com/courses/safe-dating/spring-2023/app.html?myParameter=myValue&thltarget=lir&thlsource=chapter-3-page-4`
+ * `https://my-app.com/courses/safe-dating/spring-2023/app.html?myParameter=myValue&thltarget=lir`
 
 ## To use a custom button
 Set the id or name attribute of the custom button to begin with `thl-messaging-btn` and the endpoint / script tag above will initiate a chat when the custom button is clicked.
