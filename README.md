@@ -109,9 +109,6 @@ Default config
 Custom button
  * https://chat.thehotline.us/demo-custom-button.html
 
-Default button, in spanish, without a close button
- * https://chat.thehotline.us/demo.html?thllanguage=es&thlexitbtn=false
-
 ## Manage and request keys
 Contact the integration team to manage your integration or request a key.
  * **https://www.thehotline.org/partner-with-the-hotline**
