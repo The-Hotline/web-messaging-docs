@@ -105,9 +105,12 @@ Set the id or name attribute of the custom button to begin with `thl-messaging-b
 ## Demo
 Default config
  * https://chat.thehotline.us/demo.html
-
+ 
 Custom button
  * https://chat.thehotline.us/demo-custom-button.html
+
+Exit button omitted and a Spanish deployment
+ * https://chat.thehotline.us/demo.html?thlexitbtn=false&lang=es
 
 ## Manage and request keys
 Contact the integration team to manage your integration or request a key.
