@@ -37,7 +37,7 @@ The Hotline chat widget has different targets based on general purpose of the in
  * `thltarget=lir`
 
 ### Chat Now button:
-By default, a “Need help? Chat now” button is added to the bottom-right corner of every web page that the endpoint is loaded from if a custom button is not found. This can be disabled.
+By default, if a custom button is not found, a “Need help? Chat now” button is added to the bottom-right corner of every web page that the endpoint is loaded in. This can be disabled.
  * Enabled = `thlchatbtn=true` (default)
  * Disabled = `thlchatbtn=false`
   
