@@ -5,8 +5,14 @@
 `http://chat.thehotline.us/thl-messaging.js`
 
 ## Live Demo
-https://chat.thehotline.us/demo.html
+Basic configuration
+ * https://chat.thehotline.us/demo.html
 
+Custom button
+ * https://chat.thehotline.us/demo-custom-button.html
+
+Exit button omitted and a Spanish deployment
+ * https://chat.thehotline.us/demo.html?thlexitbtn=false&lang=es
 
 ## Basic Deployment
 
@@ -85,16 +91,6 @@ This isn’t a configurable setting. This simply captures the entire page-URL.
  * `https://my-app.com/courses/dating-safety/spring-23/index.html?myParameter=myValue`
  * `https://my-app.com/app.html?course=dating-safety&term=spring-23&myParameter=myValue`
 
-
-## Demo
-Default config
- * https://chat.thehotline.us/demo.html
- 
-Custom button
- * https://chat.thehotline.us/demo-custom-button.html
-
-Exit button omitted and a Spanish deployment
- * https://chat.thehotline.us/demo.html?thlexitbtn=false&lang=es
 
 
 ## Manage and request keys
