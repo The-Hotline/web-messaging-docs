@@ -85,10 +85,17 @@ A WordPress plugin is in development.
 Pure endpoint-URL configs
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9&thllanguage=es&thltarget=lir&thlsource=course-dating-safety-spring-23`
+ * 
+ * `<script type="text/javascript" src="https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9&thllanguage=es&thltarget=lir&thlsource=course-dating-safety-spring-23" charset="utf-8"></script>`
+
 
 Endpoint-URL and page-URL config
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
  * `https://my-app.com/courses/safe-dating/spring-2023/app.html?myParameter=myValue&thltarget=lir`
+ * 
+ *  `SELF HOSTED WEB PAGE: https://my-app.com/courses/safe-dating/spring-2023/app.html?myParameter=myValue&thltarget=lir`
+ *  `<script type="text/javascript" src="https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
+
 
 ## To use a custom button
 Set the id or name attribute of the custom button to begin with `thl-messaging-btn` and the endpoint / script tag above will initiate a chat when the custom button is clicked.
