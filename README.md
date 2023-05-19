@@ -21,10 +21,6 @@ Exit button omitted and a Spanish deployment
  * or
  * Paste this snippet into the end of your <body></body> in every page you want chat to be able to continue. `<script type="text/javascript" src="https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
 
-### Deployment info
-A WordPress plugin is in development.
-
-
 
 ## Configure Deployment
 
@@ -77,8 +73,19 @@ By default, a red exit button will appear on the top-left corner of the chat fra
  * Disabled = `thlexitbtn=false`
 
 
+## Manage and request keys
+Contact the integration team to manage your integration or request a key.
+ * **https://www.thehotline.org/partner-with-the-hotline**
+
+
+==========================================================
+
+## In Development
+
+### WordPress plugin
+For partners using WordPress sites to embed Chat and Search
+
 ### Logging
-Reporting for logs is in development.
 
 #### Source: 
 This is configurable using a query string. This will accept standard letters, digits, and hyphens and is limited to 255 characters.
@@ -93,6 +100,3 @@ This isn’t a configurable setting. This simply captures the entire page-URL.
 
 
 
-## Manage and request keys
-Contact the integration team to manage your integration or request a key.
- * **https://www.thehotline.org/partner-with-the-hotline**
