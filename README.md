@@ -15,8 +15,6 @@ Exit button omitted and a Spanish deployment
  * https://chat.thehotline.us/demo.html?thlexitbtn=false&lang=es
 
 ## Basic Deployment
-
-### Basic deployment example
  * Use this endpoint in your custom implementation: `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
  * or
  * Paste this snippet into the end of your <body></body> in every page you want chat to be able to continue. `<script type="text/javascript" src="https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
