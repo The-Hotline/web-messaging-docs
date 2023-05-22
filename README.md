@@ -1,10 +1,10 @@
 # The Hotline chat widget integration instructions
 
 
-## Base endpoint URL
+### Base endpoint URL
 `http://chat.thehotline.us/thl-messaging.js`
 
-## Live Demo
+### Live Demo
 Basic configuration
  * https://chat.thehotline.us/demo.html
 
@@ -19,8 +19,17 @@ Exit button omitted and a Spanish deployment
  * or
  * Paste this snippet into the end of your <body></body> in every page you want chat to be able to continue. `<script type="text/javascript" src="https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
 
+### Deployment key: 'key' (required)
+Your unique deployment key.
+ * This is the only query string that must be declared in the endpoint-URL. It will not be obtained from the page-URL.
+ * `key=44033576-e28e-8685-2b21-58sample3d9`
 
-## Configure Deployment
+### Approved Domains (requried)
+ * Each unique deploy key is connected to a list of approved domains. We will build an interface for this as we add more partners. For now, connect with us via email to add or remove approved domains.
+
+
+## Custom Deployment
+The following configurations are all optional.
 
 ### To use a custom button
 Set the id or name attribute of the custom button to begin with `thl-messaging-btn` and the endpoint / script tag above will initiate a chat when the custom button is clicked.
@@ -32,21 +41,16 @@ Set the id or name attribute of the custom button to begin with `thl-messaging-b
  * i.e. `<button class="my-button-class chat-button" id="header-chat-btn" name="thl-messaging-btn">Chat</button>`
  * i.e. `<button class="my-button-class chat-button" id="footer-chat-btn" name="thl-messaging-btn-footer">Chat with TheHotline.org</button>`
 
-### Query strings
-Functionality is configured by query string parameters. Query strings are obtained from the endpoint-URL for the widgeth and from the page-URL of the webpage laoding the widget. If present, page-URL query strings will override those in the endpoint. (i.e. `endpoint-URL:?thllanguage=en` and `page-URL:?thllanguage=es` In this example, the language for the whole site is set to English, but when visiting a Spanish page, the page-URL will be the setting that is resolved)
 
-If a desired configuration is the default, it can be omitted from both URLs.
+#### Favicons
+ * Going live 5/23.
+ * To enable chat notifications in browser tabs via favicon changes, please include your favicons here.
+ * The standard version and one alternate versions. ( i.e. https://lib.thehotline.us/img/favicon.ico and https://lib.thehotline.us/img/favicon-alt.ico )
+ * We suggest using an alt favicon that is relatively ambiguous so somebody not engaged in a conversation would be unlikely to notice it as an “unread message” notification. Rather than the standard red dot in the corner. 
+ * If you leave this blank, browser tab notifications will be disabled.
 
-### Button parameters
-This is under development. Pass use-specific parameters to the chat via button attributes.
-
-
-### Options
-
-#### Deployment key: 'key' (required)
-Your unique deployment key.
- * This is the only query string that must be declared in the endpoint-URL. It will not be obtained from the page-URL.
- * `key=44033576-e28e-8685-2b21-58sample3d9`
+##### Query strings
+The following options are configured by query string parameters. Query strings are obtained from the endpoint-URL for the widgeth and from the page-URL of the webpage laoding the widget. If present, page-URL query strings will override those in the endpoint. (i.e. `endpoint-URL:?thllanguage=en` and `page-URL:?thllanguage=es` In this example, the language for the whole site is set to English, but when visiting a Spanish page, the page-URL will be the setting that is resolved)
 
 #### Chat Now button:
 By default, if a custom button is not found, a “Need help? Chat now” button is added to the bottom-right corner of every web page that the endpoint is loaded in. This can be disabled.
@@ -79,6 +83,9 @@ Contact the integration team to manage your integration or request a key.
 ==========================================================
 
 ## In Development
+
+### Button parameters
+Pass use-specific parameters to the chat via button attributes.
 
 ### WordPress plugin
 For partners using WordPress sites to embed Chat and Search
