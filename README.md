@@ -17,7 +17,7 @@ Exit button omitted and a Spanish deployment
 ## Basic Deployment
 Use this endpoint in your custom implementation:
  * `https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
-or paste this snippet into the end of your <body></body> in every page you want a chat to be able to start and continue/reconnect. (all site pages in most use cases)
+or paste this snippet into the end of your <body></body> in every page you want a chat to be able to start and continue/reconnect.
  * `<script type="text/javascript" src="https://chat.thehotline.us/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
 
 ### Deployment key: 'key' (required)
