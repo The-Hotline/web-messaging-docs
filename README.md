@@ -9,7 +9,14 @@ Basic configuration
  * https://chat.thehotline.us/p/24-1/demo.html
 
 Spanish deployment
- * Include "espanol" anywhere in the page URL. `https://my.website.com/page-with-chat?lang=espanol` or `https://espanol.mysite.com/get-help`
+ * Include `thllanguage=es` in the endpoint.
+ * `{{base_endpoint}}?key=44033576-e28e-8685-2b21-58sample3d9&thllanguage=es`
+
+Scope / target
+ * To determine inquiries focused on domestic violence crisis support or health relationship inquiries.
+ * `thltarget=thl` = The Hotline: Primary scope, domestic violence crisis support.
+ * `thltarget=lir` = Love Is Respect: Health relationship inquiries.
+ * `{{base_endpoint}}?key=44033576-e28e-8685-2b21-58sample3d9&thltarget=thl`
 
 Auto load
  * To automatically load a new session when the page loads, update your endpoint to include `thlautoload=yes`
