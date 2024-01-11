@@ -8,9 +8,6 @@
 Basic configuration
  * https://chat.thehotline.us/p/24-1/demo.html
 
-Custom button
- * https://chat.thehotline.us/p/24-1/demo-custom-button.html
-
 Spanish deployment
  * Include "espanol" anywhere in the page URL. `https://my.website.com/page-with-chat?lang=espanol` or `https://espanol.mysite.com/get-help`
 
