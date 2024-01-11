@@ -2,23 +2,27 @@
 
 
 ### Base endpoint URL
-`http://chat.thehotline.us/p/8-23/thl-messaging.js`
+`http://chat.thehotline.us/p/24-1/thl-messaging.js`
 
 ### Live Demo
 Basic configuration
- * https://chat.thehotline.us/p/8-23/demo.html
+ * https://chat.thehotline.us/p/24-1/demo.html
 
 Custom button
- * https://chat.thehotline.us/p/8-23/demo-custom-button.html
+ * https://chat.thehotline.us/p/24-1/demo-custom-button.html
 
 Spanish deployment
  * Include "espanol" anywhere in the page URL. `https://my.website.com/page-with-chat?lang=espanol` or `https://espanol.mysite.com/get-help`
 
+Auto load
+ * To automatically load a new session when the page loads, update your endpoint to include `thlautoload=yes`
+ * `{{base_endpoint}}?key=44033576-e28e-8685-2b21-58sample3d9&thlautoload=yes`
+
 ## Basic Deployment
 Use this endpoint in your custom implementation:
- * `https://chat.thehotline.us/p/8-23/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9`
+ * `{{base_endpoint}}?key=44033576-e28e-8685-2b21-58sample3d9`
 or paste this snippet into the end of your <body></body> in every page you want a chat to be able to start and continue/reconnect.
- * `<script type="text/javascript" src="https://chat.thehotline.us/p/8-23/thl-messaging.js?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
+ * `<script type="text/javascript" src="{{base_endpoint}}?key=44033576-e28e-8685-2b21-58sample3d9" charset="utf-8"></script>`
 
 ### Deployment key: 'key' (required)
 Your unique deployment key. This is the only query string that must be declared in the endpoint-URL. It will not be obtained from the page-URL.
